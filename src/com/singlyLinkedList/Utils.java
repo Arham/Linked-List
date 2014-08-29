@@ -1,3 +1,5 @@
+package com.singlyLinkedList;
+
 /**
  * Created by apugalia on 8/29/2014.
  */
@@ -8,6 +10,7 @@ public class Utils {
 			root = root.next;
 		}
 		System.out.print("null");
+		System.out.println();
 	}
 
 	public static Node createNodes(int numOfNodes) {
